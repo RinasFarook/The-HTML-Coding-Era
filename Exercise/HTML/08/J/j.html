@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head><title>Registration Form</title></head>
+<body>
+<form method="post">
+
+
+<tr>
+<td><b><label for="Full Name">Full Name</label></td></b></br>
+<td><input type="text" id="Full Name" name="Full Name" required></td></br></br>
+
+
+<td><b><label for="Email">Email</label></td></b><br>
+<td><input type="email" id="Email" name="Email" required></td></br></br>
+
+
+<td><b><label for="Phone Number">Phone Number</label></td></b></br>
+<td><input type="number" id="Phone Number" name="Phone Number" required maxlength="15"></td></br></br>
+
+
+<td><b><label for="Course Selection">Course Selection</label></b><br>
+<select name="Course Selection" required>
+ <option value="">select</option>
+ <option value="Web Development">Web Development</option>
+ <option value="Graphic Design">Graphic Design</option>
+ <option value="Data Science">Data Science</option></td>
+</select></br></br>
+
+
+<td><b><label for="Preferred Class Time">Preferred Class Time</label></td><br>
+<input type="radio" name="w1" value="Morning" id="w2" required><label for="w2">Morning</label></br>
+<input type="radio" name="w1" value="Afternoon" id="w2"><label for="w2">Afternoon</label></br>
+<input type="radio" name="w1" value="Evening" id="w2"><label for="w2">Evening</label>
+</br><br>
+
+
+<td><b><label for="Comments">Comments</label></td></b><br>
+<textarea cols="20" rows="10"></textarea>
+</br></br>
+
+
+<td><input type="submit"></td>
+
+
+</tr>
+
+
+</form>
+
+
+<table border="2">
+<caption><b>Course Time Table</b></caption>
+<tr>
+<th>Day</th>
+<th>Course</th>
+<th>Time</th>
+<th>Instructor</th>
+</tr>
+
+<tr>
+<td>Monday</td>
+<td>Web Development</td>
+<td>10.00 AM-12.00 PM</td>
+<td>Mr.Smith</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td>Graphic Design</td>
+<td>1.00 PM-3.00 PM</td>
+<td>Ms.Johnson</td>
+</tr>
+
+<tr>
+<td>Friday</td>
+<td>Data Science</td>
+<td>2.00 PM-4.00 PM</td>
+<td>Dr.Brown</td>
+</tr>
+
+
+</table>
+</body>
+</html>
